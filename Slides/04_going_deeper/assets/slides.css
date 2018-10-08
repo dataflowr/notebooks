@@ -1,28 +1,12 @@
-/*@import url(webfont-ubuntu-400-300-100.css);
-@import url(webfont-ubuntu-mono-400-700-400italic.css);*/
-/*@import url(https://fonts.googleapis.com/css?family=Lato:400,900);*/
-/*@import url(https://fonts.googleapis.com/css?family=Mina:400,900);*/
-/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);*/
-/*@import url(https://fonts.googleapis.com/css?family=Roboto:900);*/
-/*@import url(https://fonts.googleapis.com/css?family=Roboto:500);*/
-/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
-/*@import url('https://fonts.googleapis.com/css?family=Oswald');*/
-/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
 /*CSS variables hooray*/
 :root {
   --main_font_color: #005ea8;
-  /*--secondary_font_color: #CE530F;*/
   --secondary_font_color: #5aaa95;
-  /*--ternary_font_color: ##400080;*/
   --ternary_font_color: #86a873;
   --quaternary_font_color: #bb9f06;
-  /*--em_font_color: #800080;*/
-  /*--em_font_color: #00afb5;*/
-  /*--em_font_color: #0caadc;*/
   --em_font_color: #4cb944;
-  /*--em_font_color: #06d6a0;*/
   --strong_font_color: #d11a01;
   --citation_font_color: #4B005F;
 
@@ -31,13 +15,7 @@
 
 
 body {
-    /*font-family:  'Lato', 'Avenir Next', 'Avenir', 'Trebuchet MS', 'Segoe UI', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
-    /*font-family:  'Ubuntu';*/
-    /*font-family:  'Roboto', sans-serif;*/
-    /*font-family:  'Montserrat', sans-serif;*/
     font-family:  'Rubik', sans-serif;
-    /*font-family:  'Roboto';*/
-    /*font-family:  'Mina';*/
     color: #354046; /*#455a64;*/
     line-height: 1.4;
     font-size: 10pt;
@@ -69,13 +47,11 @@ body {
 }
 
 em {
-    /*color: #800080;*/
     color: var(--em_font_color);
     font-style: normal;
 }
 
 strong {
-    /*color: #d11a01;*/
     color: var(--strong_font_color);;
     font-style: normal;
     font-weight: normal;
@@ -376,42 +352,6 @@ td {
     background-color: black;
     color: white;
     border-top: solid 0px;
-}
-
-
-/*div.my-header {
-  background-color: #F77A00;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffb76b), color-stop(0%,#ffa73d), color-stop(0%,#ffffff), color-stop(10%,#ffffff), color-stop(25%,#F77A00), color-stop(100%,#F77A00));
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 30px;
-  width: 100%;
-  text-align: left;
-}*/
-
-div.my-footer {
-    border-top: 1px solid #ccc;
-    font-size: 10pt;
-  text-align: center;
-  position: fixed;
-  /*bottom: 0px;*/
-  top: 0px;
-  left: 0px;
-  height: 30px;
-  width: 100%;
-}
-
-div.my-footer p {
-    margin-top: 10px;
-    height: 30px;
-}
-
-div.my-footer img {
-  height: 70px;
-  top: 10px;
-  right: 5px;
-  position: fixed;
 }
 
 
