@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+/*CSS variables hooray*/
+:root {
+  --main_font_color: #005ea8;
+  --secondary_font_color: #5aaa95;
+  --ternary_font_color: #86a873;
+  --quaternary_font_color: #bb9f06;
+  --em_font_color: #4cb944;
+  --strong_font_color: #d11a01;
+  --citation_font_color: #4B005F;
+
+}
+
+
+
+body {
+    font-family:  'Rubik', sans-serif;
+    color: #354046; /*#455a64;*/
+    line-height: 1.4;
+    font-size: 10pt;
+    word-wrap: break-word;
+}
+
+
+.hidden {
+  visibility: hidden;
+}
+
+.small {
+  font-size: 90%;
+}
+
+.credits {
+  font-style: italic;
+  font-size: 70%;
+}
+
+.bunchoflogos img {
+  max-height: 100px;
+  padding: 1em;
+}
+
+.bunchoflogos p {
+  text-align: center;
+  width: 750px;
+}
+
+em {
+    color: var(--em_font_color);
+    font-style: normal;
+}
+
+strong {
+    color: var(--strong_font_color);;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gallery {
+    display: block;
+    text-align: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+}
+
+
+.stretch img {
+    width: 100%;
+    height: auto;
+}
+
+.width-10 * {
+    width: 10%;
+}
+
+.width-20 * {
+    width: 20%;
+}
+
+.width-30 * {
+    width: 30%;
+}
+
+.width-40 * {
+    width: 40%;
+}
+
+.width-50 * {
+    width: 50%;
+}
+
+.width-60 * {
+    width: 60%;
+}
+
+.width-70 * {
+    width: 70%;
+}
+
+.width-80 * {
+    width: 80%;
+}
+
+.width-90 * {
+    width: 90%;
+}
+
+.width-100 * {
+    width: 100%;
+}
+
+
+.left-column {
+  width: 50%;
+  float: left;
+}
+
+.right-column {
+  width: 50%;
+  float: right;
+}
+
+
+.big { font-size: 1.5em; }
+.small { font-size: 0.2em; }
+
+.tiny { font-size: 12pt; }
+
+
+.caption {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+/*.credit {
+   position: absolute;
+   float:left;
+   bottom: 0em;
+   margin: 0em 0em;
+   font-size: 0.4em;
+ }
+*/
+.credit {
+   position: absolute;
+   float:left;
+   bottom: 0.8em;
+   margin: 0em 0em;
+   font-size: 0.5em;
+   /*opacity: 0.75;*/
+ }
+
+  .citation {
+   position: absolute;
+   bottom: 2em;
+   opacity: 0.75;
+   right: 7em;
+   left: 4em;
+   color: var(--citation_font_color);
+   font-style: italic;
+   font-size: 0.7em;
+ }
+
+ .citation:before {
+     content: "\2015\2015\2015";
+     display: block;
+ }
+
+ .reset-column {
+   overflow: auto;
+    width: 100%;
+ }
+
+ .right{
+   float:right;
+ }
+
+ .left{
+   float:left;
+ }
+
+.red { color: #ee1111; }
+.grey { color: #bbbbbb; }
+.green {color: #258212;}
+.purple {color: #800080}
+.gray{color: #999999; }
+.Q {color: #009933; }
+
+a:visited {
+  color: blue;
+}
+
+/*remark settings*/
+
+.remark-container {
+    background: #ddd;
+}
+
+.remark-slide-content {
+    
+    /*background-image: linear-gradient(135deg, transparent, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.05));*/
+    font-size: 1.4em;
+    border-top: solid 5px var(--main_font_color);
+
+}
+
+.remark-slide-content h1 {
+    font-weight: bold;
+    font-size: 2.25em;
+    margin: 0 0 .5em 0;
+    color: var(--main_font_color);
+}
+
+.remark-slide-content h2 {
+    color: var(--secondary_font_color);
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0 0 .5em 0;
+}
+
+.remark-slide-content h3 {
+    /*color: #CE530F;*/
+    color: var(--ternary_font_color);
+    font-size: 1.0em;
+    font-weight: normal;
+    margin: 0 0 .5em 0;
+}
+
+.remark-slide-content h4 {
+    color: var(--quaternary_font_color);
+    font-size: 0.8em;
+    font-weight: normal;
+    margin: 0 0 .5em 0;
+}
+
+
+.remark-slide-number {
+    font-size: 0.5em;
+    bottom: 2em;
+}
+
+.remark-code {
+    /*font-size: 0.6em;*/
+    font-size: 0.7em;
+}
+
+.katex {
+    color: var(--main_font_color);
+}
+
+
+ul > li, ol > li {
+     margin: 0.6em 0;
+}
+
+ul > li > ul > li {
+    font-size: 0.8em;
+}
+
+table {
+    border-spacing: 1;
+    border: 1px solid #e2e2e2;
+    font-size: .8em;
+    margin: auto;
+    padding: 0;
+}
+
+thead {
+    border: 1;
+    margin: 0;
+}
+
+th {
+    background: #e2e2e2;
+    border: 0;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+tbody {
+    background: white;
+    font-size: .8em;
+    margin:0;
+}
+
+tr {
+    margin: 0;
+    /*padding: 0;*/
+    padding: 10px 10px;
+
+}
+
+tr:nth-child(odd) {
+    background: #fcfcfc;
+}
+
+td {
+    margin: 0;
+    padding: 5px 8px;
+}
+
+.pull-left {
+    float: left;
+    margin-right: 1em;
+}
+
+.pull-right {
+    float: right;
+    margin-left: 1em;
+}
+
+/*glouppe*/
+
+.title-slide:after {
+    content: '';
+    /*background: url("../assets/logo_ulg.png") no-repeat;*/
+    background-size: 100% 100%;
+    width: 150px;
+    height: 73px;
+    position: absolute;
+    bottom: 2em;
+    left: 3.3em;
+    display: inline-block;
+}
+
+.title-slide {
+    vertical-align: middle;
+}
+
+.end-slide {
+    background-color: var(--main_font_color);
+    color: white;
+    vertical-align: middle;
+}
+
+.black-slide {
+    background-color: black;
+    color: white;
+    border-top: solid 0px;
+}
+
+
+/*some tweaks for nicer pdf exports*/
+@page {
+  // 908px 681px for 4/3 slides
+  size: 1210px 681px;
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
