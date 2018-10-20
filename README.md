@@ -4,7 +4,7 @@ Material for Deep Learning hands-on courses largely inspired by [fast.ai](http:/
 
 ## two courses:
 
-- [5 days course](#faster.ai)
+- [5 days course](#fasterai)
 
 A 5 days crash course on deep learning for students with a background in python and ML.
 
