@@ -1,4 +1,4 @@
-
+Material for Deep Learning hands-on courses largely inspired by [fast.ai](http://www.fast.ai/) course: Practical Deep Learning For Coders.
 
 ## two courses:
 
