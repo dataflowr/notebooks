@@ -1,4 +1,4 @@
-# Dataflowr
+# dataflowr
 
 Material for Deep Learning hands-on courses largely inspired by [fast.ai](http://www.fast.ai/) course: Practical Deep Learning For Coders.
 
@@ -13,6 +13,9 @@ A 5 days crash course on deep learning for students with a background in python 
 currently taught at ENS, under progress... (stay tuned for updates)
 
 ## faster.ai
+
+TBD
+
 
 - day 1:
   
