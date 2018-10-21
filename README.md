@@ -14,41 +14,40 @@ A 5 days crash course on deep learning for students with a background in python 
 
 currently taught at ENS, under progress... (stay tuned for updates)
 
-## Main updates:
+## main updates:
 
 - 10/21/2018 ressources for faster.ai online.
 
 ## faster.ai
 
-TBD
-
-
-- day 1:
+- Day 1:
   
-  1. introductory slides: https://mlelarge.github.io/dataflowr/Slides/01_intro_dldiy/index.html
-  2. dogs and cats with VGG: https://github.com/mlelarge/dataflowr/blob/master/Notebooks/01_intro_DLDIY.ipynb
-  3. autograd and regression: https://github.com/mlelarge/dataflowr/blob/master/Notebooks/02_basics_pytorch.ipynb
-  4. feature computation on colab: https://github.com/mlelarge/dataflowr/blob/master/Notebooks/04_dogscast_features_colab.ipynb
+  1. [introductory slides](https://mlelarge.github.io/dataflowr/Slides/01_intro_dldiy/index.html)
+  2. first example: [dogs and cats with VGG](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/01_intro_DLDIY.ipynb)
+  3. making a regression with autograd: [intro to pytorch](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/02_basics_pytorch.ipynb)
+  4. using colab to compute features, just run the following [notebook](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/04_dogscast_features_colab.ipynb) on colab. Save it in your drive and open it with colab. It should load the features of dogs and cats in your drive.
 
-- day 2:
+- Day 2:
   
-  5. understanding convolutions: https://github.com/mlelarge/dataflowr/blob/master/Notebooks/03_convolution-digit-recognizer_empty.ipynb
-  6. slides recap: https://mlelarge.github.io/dataflowr/Slides/05_some_basics/05_some_basics.html
-  7. overfitting from colab features: https://github.com/mlelarge/dataflowr/blob/master/Notebooks/04_dogscast_fromcolab_emty.ipynb
-  8. collaborative filtering: https://github.com/mlelarge/dataflowr/blob/master/Notebooks/05_collaborative_filtering.ipynb
+  5. understanding [convolutions](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/03_convolution-digit-recognizer_empty.ipynb) and your first neural network.
+  6. pausing a bit, [slides recap](https://mlelarge.github.io/dataflowr/Slides/05_some_basics/05_some_basics.html) on writing a module and BCE loss.
+  7. using colab features to [overfit](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/04_dogscast_fromcolab_emty.ipynb) . This practical requires the features computed on colab in day 1.
+  8. discovering embedding with [collaborative filtering](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/05_collaborative_filtering.ipynb)
 
-- day 3:
+- Day 3:
   
-  9. regularization, dropout, batchnorm, residual net
-  10. introduction to NLP: https://github.com/mlelarge/dataflowr/blob/master/Notebooks/introduction_NLP.ipynb
-  11. Optimization, initialization
-  12 autoencoder: https://github.com/mlelarge/dataflowr/blob/master/Notebooks/05_Autoencoder_empty.ipynb
+  9. regularization, dropout, batchnorm, residual net, slides to come...
+  10. introduction to [NLP](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/introduction_NLP.ipynb) with sentiment analysis.
+  11. optimization, initialization, slides to come...
+  12. unsupervised learning with [autoencoders](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/05_Autoencoder_empty.ipynb)
 
-- day 4:
+- Day 4:
   
-  13. RNN https://github.com/mlelarge/dataflowr/blob/master/Notebooks/char_rnn_classification_tutorial.ipynb
-  14. class activation map: https://github.com/mlelarge/dataflowr/blob/master/Notebooks/CAM.ipynb
+  13. Recurrent Neural Networks, slides to come
+  14. pytorch tutorial on [RNN](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/char_rnn_classification_tutorial.ipynb)
+  14. understanding my network: [class activation map](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/CAM.ipynb)
 
-- day 5:
+- Day 5:
   
-  15. GAN
+  15. Generative Adversarial Networks, [slides](https://mlelarge.github.io/dataflowr/Slides/GAN/index.html)
+  16. GAN, practicals to come...
