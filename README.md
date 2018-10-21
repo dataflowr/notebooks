@@ -55,6 +55,6 @@ currently taught at ENS, under progress... (stay tuned for updates)
   16. GAN, practicals to come...
 
 
-## Contact
+### Contact
 
 [homepage](https://www.di.ens.fr/~lelarge/#contact)
