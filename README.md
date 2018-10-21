@@ -1,4 +1,8 @@
-Material for Deep Learning hands-on courses largely inspired by [fast.ai](http://www.fast.ai/) course: Practical Deep Learning For Coders.
+Material for Deep Learning hands-on courses.
+
+Largely inspired by [fast.ai](http://www.fast.ai/) course: Practical Deep Learning For Coders but with a different focus.
+
+The main goal of the courses is to allow students to understand papers, blog posts and codes available online and to adapt them to their projects as soon as possible. In particular, we avoid the use of any high-level neural networks API and focus on the [PyTorch](https://pytorch.org/) library in Python. 
 
 ## two courses:
 
@@ -9,6 +13,10 @@ A 5 days crash course on deep learning for students with a background in python 
 - [Deep Learning: Do It Yourself!](https://www.di.ens.fr/~lelarge/dldiy/)
 
 currently taught at ENS, under progress... (stay tuned for updates)
+
+## Main updates:
+
+- 10/21/2018 ressources for faster.ai online.
 
 ## faster.ai
 
