@@ -7,3 +7,8 @@ They started from scratch on Monday and presented their project on Friday aftern
 - [Skin cancer detection](https://github.com/ruoyzhang/Skin_Cancer_Detection_with_GradCam)
 
 - [Art style classification for paintings](https://github.com/charlottecaucheteux/style_transfer)
+
+- More to come...
+
+[Back to course](https://mlelarge.github.io/dataflowr/#fasterai)
+
