@@ -1,0 +1,184 @@
+@import url(webfont-ubuntu-400-300-100.css);
+@import url(webfont-ubuntu-mono-400-700-400italic.css);
+
+
+/*CSS variables hooray*/
+:root {
+  --main_font_color: #198AB8;
+  --secondary_font_color: #CE530F;
+}
+
+
+body {
+  font-family: 'Ubuntu';
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  margin-top: 0;
+/*  margin-bottom: 10px;*/
+}
+
+h1 {
+  margin-top: 0.5em;
+}
+
+
+h2 {
+  font-size: 140%;
+  line-height: 120%;
+  /*line-height: 150%;*/
+}
+
+h3 {
+  font-size: 110%;
+  /*line-height: 140%;*/
+  line-height: 110%;
+}
+
+h4 {
+  font-size: 120%;
+  /*line-height: 140%;*/
+  line-height: 110%;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+h1, h2{
+  color: var(--main_font_color) !important;
+}
+
+h3{
+  color: var(--secondary_font_color) !important;
+}
+
+li {
+  font-size: 120%;
+  line-height: 140%;
+}
+
+li li {
+  font-size: 80%;
+  line-height: 140%;
+}
+
+p {
+font-size: 120%;
+  line-height: 140%;
+}
+
+p.smallfnt {
+      font-size: 14pt;
+}
+
+p.mediumfnt {
+      font-size: 18pt;
+}
+
+p.largefnt {
+      font-size: 22pt;
+}
+
+.singleimg .middlebelowheader {
+  text-align: center;
+}
+
+.singleimg img {
+  max-width: 90%;
+  max-height: 600px;
+  /*border: 2px solid #ddd;*/
+}
+table {
+  margin: 0 auto 0.8em;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 0.3em 0.5em;
+}
+
+.bgheader h1 {
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 50%;
+  padding: 0.5em;
+  color: white;
+  border-radius: .5em;
+}
+.middlebelowheader {
+  /* This fixed size height was found to work well with the slide
+     scaling mechanism of remark.js:
+   */
+  height: 500px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.widespace h2 {
+  line-height: 200%;
+}
+.big .remark-code  {
+  font-size: 200%;
+}
+.remark-code, .remark-inline-code {
+   font-family: 'Ubuntu Mono';
+}
+
+.medium .remark-code  {
+  font-size: 120%;
+}
+
+.mmedium .remark-code  {
+  font-size: 99%;
+}
+
+.affiliations img {
+  height: 44px;
+  margin: 2em;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.small {
+  font-size: 90%;
+}
+
+.credits {
+  font-style: italic;
+  font-size: 70%;
+}
+
+.bunchoflogos img {
+  max-height: 100px;
+  padding: 1em;
+}
+
+.bunchoflogos p {
+  text-align: center;
+  width: 750px;
+}
+
+a:visited {
+  color: blue;
+}
+
+/*some tweaks for nicer pdf exports*/
+@page {
+  // 908px 681px for 4/3 slides
+  size: 1210px 681px;
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
