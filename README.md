@@ -52,7 +52,7 @@ currently taught at ENS, under progress... (stay tuned for updates)
 - Day 5:
   
   15. Generative Adversarial Networks, [slides](https://mlelarge.github.io/dataflowr/Slides/GAN/index.html)
-  16. GAN, practicals to come...
+  16. [Conditional and info GANs](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/GAN_double_moon_empty.ipynb)
 
 
 ### Contact
