@@ -32,7 +32,7 @@ currently taught at ENS, under progress... (stay tuned for updates)
   5. understanding [convolutions](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/03_convolution-digit-recognizer_empty.ipynb) and your first neural network.
   6. pausing a bit, [slides recap](https://mlelarge.github.io/dataflowr/Slides/05_some_basics/05_some_basics.html) on writing a module and BCE loss.
   7. using colab features to [overfit](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/04_dogscast_fromcolab_emty.ipynb) . This practical requires the features computed on colab in day 1.
-  8. discovering embedding with [collaborative filtering](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/05_collaborative_filtering.ipynb)
+  8. discovering embeddings with [collaborative filtering](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/05_collaborative_filtering.ipynb)
 
 - Day 3:
   
