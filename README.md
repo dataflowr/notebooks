@@ -16,7 +16,7 @@ currently taught at ENS, under progress... (stay tuned for updates)
 
 ## main updates:
 
-- 10/21/2018 ressources for faster.ai online.
+- 10/21/2018 ressources for [faster.ai](#fasterai) and [projects of the students](https://mlelarge.github.io/dataflowr/projects_xhec18.html) online. 
 
 ## faster.ai
 
