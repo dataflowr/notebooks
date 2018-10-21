@@ -10,5 +10,5 @@ They started from scratch on Monday and presented their project on Friday aftern
 
 - More to come...
 
-[Back to course](https://mlelarge.github.io/dataflowr/#fasterai)
+[Back to the course](https://mlelarge.github.io/dataflowr/#fasterai)
 
