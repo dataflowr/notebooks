@@ -4,6 +4,8 @@ Largely inspired by [fast.ai](http://www.fast.ai/) course: Practical Deep Learni
 
 The main goal of the courses is to allow students to understand papers, blog posts and codes available online and to adapt them to their projects as soon as possible. In particular, we avoid the use of any high-level neural networks API and focus on the [PyTorch](https://pytorch.org/) library in Python. 
 
+[Constructive comments welcome!](#contact)
+
 ## two courses:
 
 - [5 days course](#fasterai)
@@ -51,3 +53,6 @@ currently taught at ENS, under progress... (stay tuned for updates)
   
   15. Generative Adversarial Networks, [slides](https://mlelarge.github.io/dataflowr/Slides/GAN/index.html)
   16. GAN, practicals to come...
+
+
+[## Contact](https://www.di.ens.fr/~lelarge/#contact)
