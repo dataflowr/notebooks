@@ -54,7 +54,16 @@ currently taught at ENS, under progress... (stay tuned for updates)
   15. Generative Adversarial Networks, [slides](https://mlelarge.github.io/dataflowr/Slides/GAN/index.html)
   16. [Conditional and info GANs](https://github.com/mlelarge/dataflowr/blob/master/Notebooks/GAN_double_moon_empty.ipynb)
   
-![](Slides/GAN_action.gif) GAN vs InfoGAN ![](Slides/IGAN_action.gif)
+<table align='center'>
+<tr align='center'>
+<td> GAN</td>
+<td> InfoGAN</td>
+</tr>
+<tr>
+<td><img src = 'Slides/GAN_action.gif'>
+<td><img src = 'Slides/IGAN_action.gif'>
+</tr>
+</table>
 
 ### Contact
 
