@@ -60,8 +60,8 @@ currently taught at ENS, under progress... (stay tuned for updates)
 <td> InfoGAN</td>
 </tr>
 <tr>
-<td><img src = 'Slides/GAN_action.gif'>
-<td><img src = 'Slides/IGAN_action.gif'>
+<td><img src = 'Slides/GAN/GAN_action.gif'>
+<td><img src = 'Slides/GAN/IGAN_action.gif'>
 </tr>
 </table>
 
