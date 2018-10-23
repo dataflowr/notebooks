@@ -10,6 +10,10 @@ They started from scratch on Monday and presented their project on Friday aftern
 
 - [Fashion object detection](https://github.com/SebastienMoeller/Deep-Learning-Polytechnique-CAS-Object-Detection/blob/master/Blue_Steel_Classifier.ipynb)
 
+- [Understanding the Amazon from space](https://github.com/ebgv/Planet--Understanding-the-Amazon-from-Space)
+
+- [Colorful world](https://color-gan-x.herokuapp.com/home)
+
 - More to come...
 
 [Back to the course](https://mlelarge.github.io/dataflowr/#fasterai)
