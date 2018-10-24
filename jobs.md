@@ -1,6 +1,6 @@
 # Jobs
 
-I am posting jobs connected with deep learning here. If you want to post a job on this page, please send me an email at dataflowr@gmail.com
+I am posting jobs connected with deep learning here. If you want to post a job on this page, please send me an email at <dataflowr@gmail.com>
 
 - [Google internship](https://careers.google.com/jobs#!t=jo&jid=/google/software-engineering-intern-research-8-rue-de-londres-75009-paris-france-4432520129&) (Europe)
 
