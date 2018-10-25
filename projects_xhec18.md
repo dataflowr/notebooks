@@ -16,6 +16,8 @@ They started from scratch on Monday and presented their project on Friday aftern
 
 - [Stackunderflow](https://github.com/peloyeje/code-issue-tagger)
 
+- [Music genre classification](https://github.com/Jamaneth/music-genre-finder)
+
 - More to come...
 
 [Back to the course](https://mlelarge.github.io/dataflowr/#fasterai)
