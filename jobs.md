@@ -6,5 +6,7 @@ I am posting jobs connected with deep learning here. If you want to post a job o
 
 - [Deepmind](https://deepmind.com/careers/1089314/) (London, UK)
 
+- [Owkin](https://owkin.welcomekit.co/jobs/machine-learning-engineer_paris) (Paris)
+
 [Back to the course](https://mlelarge.github.io/dataflowr/#fasterai)
 
