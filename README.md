@@ -1,4 +1,4 @@
-Material for Deep Learning hands-on courses.
+Material for [Deep Learning hands-on courses](https://mlelarge.github.io/dataflowr/).
 
 Largely inspired by [fast.ai](http://www.fast.ai/) course: Practical Deep Learning For Coders but with a different focus.
 
