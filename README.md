@@ -5,4 +5,4 @@ Material for [Deep Learning hands-on courses](http://www.dataflowr.com).
 
 email: dataflowr@gmail.com
 
-[homepage](https://www.di.ens.fr/~lelarge/#contact)
+[homepage](https://www.di.ens.fr/~lelarge/)
