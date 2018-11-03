@@ -1,0 +1,9 @@
+# random crap
+*~
+*.swp
+\#*\#
+.\#*
+
+# python crap
+*.pyc
+__pycache__/
