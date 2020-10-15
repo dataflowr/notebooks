@@ -1,6 +1,8 @@
 jupyter
 numpy
 pandas
+requests
+opencv-python
 seaborn
 matplotlib
 torch
