@@ -3,6 +3,7 @@ numpy
 pandas
 requests
 opencv-python
+scikit-image
 seaborn
 matplotlib
 torch
