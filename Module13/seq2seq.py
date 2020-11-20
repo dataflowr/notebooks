@@ -2,6 +2,7 @@ import torch
 from torch.utils.data import DataLoader, TensorDataset
 from torch import optim
 from torch import nn
+import torch.nn.functional as F
 import numpy as np
 from tqdm import tqdm
 import matplotlib.pyplot as plt
@@ -135,18 +136,20 @@ def train(input_tensor, target_tensor, encoder, decoder, encoder_optimizer, deco
     if use_teacher_forcing:
         # Teacher forcing: Feed the target as the next input
         for di in range(target_length):
-            pass
-            # Your code here
+            decoder_output, decoder_hidden = decoder(
+                decoder_input, decoder_hidden)
+            loss += criterion(decoder_output.squeeze(), target_tensor[di])
+            decoder_input = target_tensor[di]  # Teacher forcing
+
     else:
         pass
         # Your code here
 
-    # loss.backward()
+    loss.backward()
 
     encoder_optimizer.step()
     decoder_optimizer.step()
 
-    return 0
     return loss.item() / target_length
 
 
@@ -188,4 +191,4 @@ def trainIters(encoder, decoder, n_iters, print_every=1000, plot_every=100, lear
     showPlot(plot_losses)
 
 
-trainIters(encoder1, decoder1, 100 * n_batches, print_every=200, plot_every=200, learning_rate=0.01)
+trainIters(encoder1, decoder1, 100 * n_batches, print_every=5, plot_every=200, learning_rate=0.01)
