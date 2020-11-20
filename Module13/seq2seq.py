@@ -50,6 +50,37 @@ class DecoderRNN(nn.Module):
         return torch.zeros(1, BATCH_SIZE, self.hidden_size, device=device)
 
 
+class AttnDecoderRNN(nn.Module):
+    def __init__(self, hidden_size, output_size, dropout_p=0.1, max_length=MAX_LENGTH):
+        super().__init__()
+        self.hidden_size = hidden_size
+        self.output_size = output_size
+        self.dropout_p = dropout_p
+
+        self.embedding = nn.Embedding(self.output_size, self.hidden_size, padding_idx=0)
+        self.attn_w = nn.Linear()  # Your code here
+        self.attn_v = nn.Linear()  # Your code here
+        self.dropout = nn.Dropout(self.dropout_p)
+        self.gru = nn.GRU(self.hidden_size * 2, self.hidden_size)
+        self.out = nn.Linear(self.hidden_size, self.output_size)
+
+    def forward(self, input, hidden, encoder_outputs):
+        embedded = self.embedding(input).view(1, BATCH_SIZE, -1)
+        embedded = self.dropout(embedded)
+
+        seq_len, _, _ = encoder_outputs.shape
+
+        # Your code computing attn_weights, context, etc. here
+
+        output, hidden = self.gru(output, hidden)
+
+        output = self.out(output[0])
+        return output, hidden, attn_weights
+
+    def initHidden(self):
+        return torch.zeros(1, 1, self.hidden_size, device=device)
+
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 hidden_size = 128
 MAX_LENGTH = 70
