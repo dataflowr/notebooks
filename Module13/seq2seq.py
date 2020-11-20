@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import time
 import math
+import random
 
 
 class EncoderRNN(nn.Module):
@@ -114,6 +115,9 @@ def showPlot(points):
     #plt.show()
 
 
+teacher_forcing_ratio = 1
+
+
 def train(input_tensor, target_tensor, encoder, decoder, encoder_optimizer, decoder_optimizer, criterion, max_length=MAX_LENGTH):
     encoder_hidden = encoder.initHidden()
 
@@ -131,7 +135,7 @@ def train(input_tensor, target_tensor, encoder, decoder, encoder_optimizer, deco
 
     decoder_hidden = encoder_hidden
 
-    use_teacher_forcing = True  #if random.random() < teacher_forcing_ratio else False
+    use_teacher_forcing = True if random.random() < teacher_forcing_ratio else False
 
     if use_teacher_forcing:
         # Teacher forcing: Feed the target as the next input
@@ -142,8 +146,16 @@ def train(input_tensor, target_tensor, encoder, decoder, encoder_optimizer, deco
             decoder_input = target_tensor[di]  # Teacher forcing
 
     else:
-        pass
-        # Your code here
+        for di in range(target_length):
+            decoder_output, decoder_hidden = decoder(
+                decoder_input, decoder_hidden)
+            topv, topi = decoder_output.topk(1)
+            decoder_input = topi.squeeze().detach()  # detach from history as input
+
+            loss += criterion(decoder_output.squeeze(), target_tensor[di])
+            if all(c in {0, EOS_token} for c in decoder_input.numpy()):
+                break
+
 
     loss.backward()
 
@@ -191,4 +203,52 @@ def trainIters(encoder, decoder, n_iters, print_every=1000, plot_every=100, lear
     showPlot(plot_losses)
 
 
-trainIters(encoder1, decoder1, 100 * n_batches, print_every=5, plot_every=200, learning_rate=0.01)
+# Train
+trainIters(encoder1, decoder1, 50 * n_batches, print_every=5, plot_every=200, learning_rate=0.01)
+
+
+def decode(t):
+    m = ""
+    for i in t:
+        if 1 <= i <= 26:
+            m += chr(ord('a') + i - 1)
+        elif i == 27:
+            m += '.'
+        elif i == 28:
+            m += '-'
+        elif i == 30:
+            m += '$'
+        else:
+            m += " "
+    return m
+
+for i, line in enumerate(y[indices[:TRUNCATE + 5]]):
+    print(i, decode(line))
+
+
+def evaluate(input_tensor):
+    with torch.no_grad():
+        hidden = encoder1.initHidden()
+        encoder_outputs, hidden = encoder1(input_tensor, hidden)
+
+        decoder_input = torch.tensor([[SOS_token for _ in range(BATCH_SIZE)]], device=device)
+
+        output = []
+        for i in range(MAX_LENGTH):
+            decoder_output, hidden = decoder1(decoder_input, hidden)
+            
+            topv, topi = decoder_output.topk(1)
+            output.append(list(decode(topi)))
+            decoder_input = topi.squeeze().detach()
+        for line in np.array(output).T:
+            print(''.join(line))
+
+        input_word = decode(input_tensor[:, 0])
+        input_len = input_word.index('$') + 1
+        output_word = [output[i][0] for i in range(len(output))]
+        output_len = output_word.index('$') + 1 if '$' in output_word else len(output_word)
+
+
+# Evaluate training
+evaluate(X_morse.T)
+#evaluate(X[indices[TRUNCATE - 5:TRUNCATE - 5 + BATCH_SIZE]].T)
