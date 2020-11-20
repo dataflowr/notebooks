@@ -70,6 +70,14 @@ class AttnDecoderRNN(nn.Module):
 
         seq_len, _, _ = encoder_outputs.shape
 
+        # Concatenating s_t (1 x B x H) to all h_i (S x B x H)
+        hidden_tile = hidden.repeat(seq_len, 1, 1)
+        torch.cat((hidden_tile, encoder_outputs), dim=2)
+        attn_weights = pass  # Attention weights
+
+        contexts = pass  # Einsum
+        output = pass  # Concatenate
+        
         # Your code computing attn_weights, context, etc. here
 
         output, hidden = self.gru(output, hidden)
