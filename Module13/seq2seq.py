@@ -12,6 +12,9 @@ import math
 import random
 
 
+MAX_LENGTH = 70
+
+
 class EncoderRNN(nn.Module):
     def __init__(self, input_size, hidden_size):
         super().__init__()
@@ -58,8 +61,8 @@ class AttnDecoderRNN(nn.Module):
         self.dropout_p = dropout_p
 
         self.embedding = nn.Embedding(self.output_size, self.hidden_size, padding_idx=0)
-        self.attn_w = nn.Linear()  # Your code here
-        self.attn_v = nn.Linear()  # Your code here
+        self.attn_w = nn.Linear(2 * self.hidden_size, self.hidden_size)  # Your code here
+        self.attn_v = nn.Linear(self.hidden_size, 1)  # Your code here
         self.dropout = nn.Dropout(self.dropout_p)
         self.gru = nn.GRU(self.hidden_size * 2, self.hidden_size)
         self.out = nn.Linear(self.hidden_size, self.output_size)
@@ -72,11 +75,13 @@ class AttnDecoderRNN(nn.Module):
 
         # Concatenating s_t (1 x B x H) to all h_i (S x B x H)
         hidden_tile = hidden.repeat(seq_len, 1, 1)
-        torch.cat((hidden_tile, encoder_outputs), dim=2)
-        attn_weights = pass  # Attention weights
 
-        contexts = pass  # Einsum
-        output = pass  # Concatenate
+        attn_weights = F.softmax(self.attn_v(torch.tanh(
+            self.attn_w(torch.cat((hidden_tile, encoder_outputs), dim=2)))), dim=0)
+
+        contexts = torch.einsum('ibj,ibk->jbk', attn_weights, encoder_outputs)
+
+        output = torch.cat((embedded, contexts), 2)
         
         # Your code computing attn_weights, context, etc. here
 
@@ -91,11 +96,10 @@ class AttnDecoderRNN(nn.Module):
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 hidden_size = 128
-MAX_LENGTH = 70
 N_WORDS = 31
 BATCH_SIZE = 10
 encoder1 = EncoderRNN(N_WORDS, hidden_size).to(device)
-decoder1 = DecoderRNN(hidden_size, N_WORDS).to(device)
+decoder1 = AttnDecoderRNN(hidden_size, N_WORDS).to(device)
 
 
 # Feeding random tensors
@@ -179,15 +183,15 @@ def train(input_tensor, target_tensor, encoder, decoder, encoder_optimizer, deco
     if use_teacher_forcing:
         # Teacher forcing: Feed the target as the next input
         for di in range(target_length):
-            decoder_output, decoder_hidden = decoder(
-                decoder_input, decoder_hidden)
+            decoder_output, decoder_hidden, attention_weights = decoder(
+                decoder_input, decoder_hidden, encoder_outputs)
             loss += criterion(decoder_output.squeeze(), target_tensor[di])
             decoder_input = target_tensor[di]  # Teacher forcing
 
     else:
         for di in range(target_length):
-            decoder_output, decoder_hidden = decoder(
-                decoder_input, decoder_hidden)
+            decoder_output, decoder_hidden, attention_weights = decoder(
+                decoder_input, decoder_hidden, encoder_outputs)
             topv, topi = decoder_output.topk(1)
             decoder_input = topi.squeeze().detach()  # detach from history as input
 
@@ -274,7 +278,7 @@ def evaluate(input_tensor):
 
         output = []
         for i in range(MAX_LENGTH):
-            decoder_output, hidden = decoder1(decoder_input, hidden)
+            decoder_output, hidden, attention = decoder1(decoder_input, hidden, encoder_outputs)
             
             topv, topi = decoder_output.topk(1)
             output.append(list(decode(topi)))
