@@ -35,6 +35,7 @@ Code and notebooks for the deep learning course [dataflowr](https://www.dataflow
     - Finding Synonyms and Analogies with Glove [08_Playing_with_word_embedding.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_Playing_with_word_embedding.ipynb)
 - [**Module 9: Autoencoders**](https://dataflowr.github.io/website/modules/9-autoencoders/)
     - Practical: denoising autoencoder (with convolutions and transposed convolutions) [09_AE_NoisyAE.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/09_AE_NoisyAE.ipynb)
+    - UNet for image segmentation [UNet_image_seg.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/UNet_image_seg.ipynb)
 - **TBC**
 
 Archives are available on the archive-2020 branch.
