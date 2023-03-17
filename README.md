@@ -33,9 +33,11 @@ Code and notebooks for the deep learning course [dataflowr](https://www.dataflow
     - Practical: Refactoring code, collaborative filtering with Movielens 1M dataset [08_collaborative_filtering_1M.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_collaborative_filtering_1M.ipynb)
     - Practical: Word Embedding (word2vec) in PyTorch [08_Word2vec_pytorch_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_Word2vec_pytorch_empty.ipynb)
     - Finding Synonyms and Analogies with Glove [08_Playing_with_word_embedding.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_Playing_with_word_embedding.ipynb)
-- [**Module 9: Autoencoders**](https://dataflowr.github.io/website/modules/9-autoencoders/)
+- [**Module 9a: Autoencoders**](https://dataflowr.github.io/website/modules/9-autoencoders/)
     - Practical: denoising autoencoder (with convolutions and transposed convolutions) [09_AE_NoisyAE.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/09_AE_NoisyAE.ipynb)
     - UNet for image segmentation [UNet_image_seg.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/UNet_image_seg.ipynb)
+- [**Module 9b - Flows**](https://dataflowr.github.io/website/modules/9b-flows/) 
+  - implementing Real NVP [Normalizing_flows_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/Normalizing_flows_empty.ipynb) and its solution [Normalizing_flows_sol.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/Normalizing_flows_sol.ipynb)
 - **TBC**
 
 Archives are available on the archive-2020 branch.
