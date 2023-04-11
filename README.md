@@ -7,17 +7,22 @@ Code and notebooks for the deep learning course [dataflowr](https://www.dataflow
 :sunflower:Session:one:
 > [Module 1 - Introduction & General Overview](https://dataflowr.github.io/website/modules/1-intro-general-overview/)
 Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats) 
+<details>
+  <summary>Things to remember</summary>
 
-> Things to remember:
 > - you do not need to understand everything to run a deep learning model! But the main goal of this course will be to come back to each step done today and understand them...
 > - to use the dataloader from Pytorch, you need to follow the API (i.e. for classification store your dataset in folders)
 > - using a pretrained model and modifying it to adapt it to a similar task is easy. 
 > - if you do not understand why we take this loss, that's fine, we'll cover that in Module 3.
 > - even with a GPU, avoid unnecessary computations!
 
-> To prepare next course:
+</details>
+<details>
+  <summary>To prepare next course</summary>
+
 Please have a look at the following videos and corresponding notebooks: [Module 2a - PyTorch tensors](https://dataflowr.github.io/website/modules/2a-pytorch-tensors/) and [Module 2b - Automatic differentiation](https://dataflowr.github.io/website/modules/2b-automatic-differentiation/)
 
+</details>
 :sunflower:Session:two:
 > 
 ## Content
