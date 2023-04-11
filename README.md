@@ -6,7 +6,7 @@ Code and notebooks for the deep learning course [dataflowr](https://www.dataflow
 
 ## :sunflower:Session:one: 
 
->[Module 1 - Introduction & General Overview](https://dataflowr.github.io/website/modules/1-intro-general-overview/)
+>- [Module 1 - Introduction & General Overview](https://dataflowr.github.io/website/modules/1-intro-general-overview/)
 Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats) 
 <details>
   <summary>Things to remember</summary>
@@ -21,8 +21,11 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 
 ## :sunflower:Session:two: 
 
->[Module 2a - PyTorch tensors](https://dataflowr.github.io/website/modules/2a-pytorch-tensors/), [Module 2b - Automatic differentiation](https://dataflowr.github.io/website/modules/2b-automatic-differentiation/) and [Module 3 - Loss function for classification](https://dataflowr.github.io/website/modules/3-loss-functions-for-classification/)
-Practicals + MLP from scratch start of [HW1](https://dataflowr.github.io/website/homework/1-mlp-from-scratch/) + [another look at autodiff with Julia](https://github.com/dataflowr/notebooks/blob/master/Module2/AD_with_dual_numbers_Julia.ipynb)
+>- [Module 2a - PyTorch tensors](https://dataflowr.github.io/website/modules/2a-pytorch-tensors/)
+>- [Module 2b - Automatic differentiation](https://dataflowr.github.io/website/modules/2b-automatic-differentiation/) + Practicals
+>- [Module 3 - Loss function for classification](https://dataflowr.github.io/website/modules/3-loss-functions-for-classification/)
+>- MLP from scratch start of [HW1](https://dataflowr.github.io/website/homework/1-mlp-from-scratch/) 
+>- [another look at autodiff with Julia](https://github.com/dataflowr/notebooks/blob/master/Module2/AD_with_dual_numbers_Julia.ipynb)
 <details>
   <summary>Things to remember</summary>
 
@@ -67,9 +70,9 @@ TDB
 - [**Module 3: Loss functions for classification**](https://dataflowr.github.io/website/modules/3-loss-functions-for-classification/)
     - An explanation of underfitting and overfitting with polynomial regression [03_polynomial_regression.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module3/03_polynomial_regression.ipynb)
 - [**Module 4: Optimization for deep leaning**](https://dataflowr.github.io/website/modules/4-optimization-for-deep-learning/)
-    - Practical: code Adagrad, RMSProp, Adam, AMSGrad [04_gradient_descent_optimization_algorithms_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module4/04_gradient_descent_optimization_algorithms_empty.ipynb)
+    - Practical: code Adagrad, RMSProp, Adam, AMSGrad [04_gradient_descent_optimization_algorithms_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module4/04_gradient_descent_optimization_algorithms_empty.ipynb) and its solution [04_gradient_descent_optimization_algorithms_sol.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module4/sol/04_gradient_descent_optimization_algorithms_sol.ipynb)
 - [**Module 5: Stacking layers**](https://dataflowr.github.io/website/modules/5-stacking-layers/)
-    - Practical: overfitting a MLP on CIFAR10 [Stacking_layers_MLP_CIFAR10.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module5/Stacking_layers_MLP_CIFAR10.ipynb)
+    - Practical: overfitting a MLP on CIFAR10 [Stacking_layers_MLP_CIFAR10.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module5/Stacking_layers_MLP_CIFAR10.ipynb) and its solution [MLP_CIFAR10.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module5/sol/MLP_CIFAR10.ipynb)
 - [**Module 6: Convolutional neural network**](https://dataflowr.github.io/website/modules/6-convolutional-neural-network/)
     - Practical: build a simple digit recognizer with CNN [06_convolution_digit_recognizer.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module6/06_convolution_digit_recognizer.ipynb)
 - [**Homework 2: Class Activation Map and adversarial examples**](https://dataflowr.github.io/website/homework/2-CAM-adversarial/)
