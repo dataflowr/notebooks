@@ -77,7 +77,7 @@ TDB
     - Practical: build a simple digit recognizer with CNN [06_convolution_digit_recognizer.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module6/06_convolution_digit_recognizer.ipynb)
 - [**Homework 2: Class Activation Map and adversarial examples**](https://dataflowr.github.io/website/homework/2-CAM-adversarial/)
     - [HW2_CAM_Adversarial.ipynb](https://github.com/dataflowr/notebooks/blob/master/HW2/HW2_CAM_Adversarial.ipynb)
-- [**Module 7: Dataloading**](https://dataflowr.github.io/website/modules/7-dataloading/)
+
 - [**Module 8: Embedding layers**](https://dataflowr.github.io/website/modules/8a-embedding-layers/), [**Collaborative filtering**](https://dataflowr.github.io/website/modules/8b-collaborative-filtering/) and [**Word2vec**](https://dataflowr.github.io/website/modules/8c-word2vec/)
     - Practical: Collaborative filtering with Movielens 100k dataset [08_collaborative_filtering_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_collaborative_filtering_empty.ipynb)
     - Practical: Refactoring code, collaborative filtering with Movielens 1M dataset [08_collaborative_filtering_1M.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_collaborative_filtering_1M.ipynb)
