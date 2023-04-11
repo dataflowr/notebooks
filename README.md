@@ -4,8 +4,7 @@
 
 Code and notebooks for the deep learning course [dataflowr](https://www.dataflowr.com/)
 
-:sunflower:Session:one:
-> [Module 1 - Introduction & General Overview](https://dataflowr.github.io/website/modules/1-intro-general-overview/)
+:sunflower:Session:one: [Module 1 - Introduction & General Overview](https://dataflowr.github.io/website/modules/1-intro-general-overview/)
 Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats) 
 <details>
   <summary>Things to remember</summary>
@@ -20,11 +19,13 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 <details>
   <summary>To prepare next course</summary>
 
-Please have a look at the following videos and corresponding notebooks: [Module 2a - PyTorch tensors](https://dataflowr.github.io/website/modules/2a-pytorch-tensors/) and [Module 2b - Automatic differentiation](https://dataflowr.github.io/website/modules/2b-automatic-differentiation/)
+>Please have a look at the following videos and corresponding notebooks: [Module 2a - PyTorch tensors](https://dataflowr.github.io/website/modules/2a-pytorch-tensors/) and [Module 2b - Automatic differentiation](https://dataflowr.github.io/website/modules/2b-automatic-differentiation/)
 
 </details>
+
 :sunflower:Session:two:
-> 
+ 
+
 ## Content
 
 - [**Module 1: Introduction & General Overview**](https://dataflowr.github.io/website/modules/1-intro-general-overview/) 
