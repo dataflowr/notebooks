@@ -53,7 +53,7 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 
 ## :sunflower:Session:four:
 TDB 
-## All notebooks
+# :sunflower: All notebooks
 
 - [**Module 1: Introduction & General Overview**](https://dataflowr.github.io/website/modules/1-intro-general-overview/) 
     - Intro: finetuning VGG for dogs vs cats [01_intro.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module1/01_intro.ipynb)
