@@ -2,7 +2,7 @@
 
 [![Dataflowr](https://raw.githubusercontent.com/dataflowr/website/master/_assets/dataflowr_logo.png)](https://dataflowr.github.io/website/)
 
-Code and notebooks for the deep learning course [dataflowr](https://www.dataflowr.com/)
+Code and notebooks for the deep learning course [dataflowr](https://www.dataflowr.com/). Here is the schedule followed at école polytechnique in 2023:
 
 ## :sunflower:Session:one: 
 
@@ -36,7 +36,7 @@ Practicals + MLP from scratch start of [HW1](https://dataflowr.github.io/website
 > - Recap on Losses for classification and Optimization
 > - overfitting a MLP on CIFAR10: [Stacking_layers_MLP_CIFAR10.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module5/Stacking_layers_MLP_CIFAR10.ipynb)
 > - [**Module 6: Convolutional neural network**](https://dataflowr.github.io/website/modules/6-convolutional-neural-network/)
-> - how to regularize with dropout [**Module 15 - Dropout**](https://dataflowr.github.io/website/modules/15-dropout/) and uncertainty estimation with MC Dropout
+> - how to regularize with dropout and uncertainty estimation with MC Dropout: [**Module 15 - Dropout**](https://dataflowr.github.io/website/modules/15-dropout/)
 <details>
   <summary>Things to remember</summary>
 
@@ -50,20 +50,20 @@ Practicals + MLP from scratch start of [HW1](https://dataflowr.github.io/website
 
 ## :sunflower:Session:four:
 TDB 
-## Content
+## All notebooks
 
 - [**Module 1: Introduction & General Overview**](https://dataflowr.github.io/website/modules/1-intro-general-overview/) 
     - Intro: finetuning VGG for dogs vs cats [01_intro.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module1/01_intro.ipynb)
-    - Practical: Using CNN for more dogs and cats [01_practical_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module1/01_practical_empty.ipynb)
+    - Practical: Using CNN for more dogs and cats [01_practical_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module1/01_practical_empty.ipynb) and its solution [01_practical_sol.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module1/sol/01_practical_sol.ipynb)
 - [**Module 2: Pytorch tensors and automatic differentiation**](https://dataflowr.github.io/website/modules/2a-pytorch-tensors/)
     - Basics on PyTorch tensors and automatic differentiation [02a_basics.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module2/02a_basics.ipynb)
     - Linear regression from numpy to pytorch [02b_linear_reg.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module2/02b_linear_reg.ipynb)
-    - Practical: implementing backprop from scratch [02_backprop.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module2/02_backprop.ipynb)
+    - Practical: implementing backprop from scratch [02_backprop.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module2/02_backprop.ipynb) and its solution [02_backprop_sol.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module2/sol/02_backprop_sol.ipynb)
     - Bonus: intro to JAX: autodiff the functional way [autodiff_functional_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module2/autodiff_functional_empty.ipynb) and its solution [autodiff_functional_sol.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module2/autodiff_functional_sol.ipynb)
     - Bonus: Linear regression in JAX [linear_regression_jax.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module2/linear_regression_jax.ipynb)
     - Bonus: automatic differentiation with dual numbers [AD_with_dual_numbers_Julia.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module2/AD_with_dual_numbers_Julia.ipynb)
 - [**Homework 1: MLP from scratch**](https://dataflowr.github.io/website/homework/1-mlp-from-scratch/)
-    - [hw1_mlp.ipynb](https://github.com/dataflowr/notebooks/blob/master/HW1/hw1_mlp.ipynb)
+    - [hw1_mlp.ipynb](https://github.com/dataflowr/notebooks/blob/master/HW1/hw1_mlp.ipynb) and its solution [hw1_mlp_sol.ipynb](https://github.com/dataflowr/notebooks/blob/master/HW1/sol/hw1_mlp_sol.ipynb)
 - [**Module 3: Loss functions for classification**](https://dataflowr.github.io/website/modules/3-loss-functions-for-classification/)
     - An explanation of underfitting and overfitting with polynomial regression [03_polynomial_regression.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module3/03_polynomial_regression.ipynb)
 - [**Module 4: Optimization for deep leaning**](https://dataflowr.github.io/website/modules/4-optimization-for-deep-learning/)
