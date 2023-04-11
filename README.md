@@ -36,10 +36,35 @@ Code and notebooks for the deep learning course [dataflowr](https://www.dataflow
     - Finding Synonyms and Analogies with Glove [08_Playing_with_word_embedding.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_Playing_with_word_embedding.ipynb)
 - [**Module 9a: Autoencoders**](https://dataflowr.github.io/website/modules/9-autoencoders/)
     - Practical: denoising autoencoder (with convolutions and transposed convolutions) [09_AE_NoisyAE.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/09_AE_NoisyAE.ipynb)
-    - UNet for image segmentation [UNet_image_seg.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/UNet_image_seg.ipynb)
-- [**Module 9b - Flows**](https://dataflowr.github.io/website/modules/9b-flows/) 
+- [**Module 9b - UNets**](https://dataflowr.github.io/website/modules/9b-unet/)
+  - UNet for image segmentation [UNet_image_seg.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/UNet_image_seg.ipynb)
+- [**Module 9c - Flows**](https://dataflowr.github.io/website/modules/9c-flows/) 
   - implementing Real NVP [Normalizing_flows_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/Normalizing_flows_empty.ipynb) and its solution [Normalizing_flows_sol.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/Normalizing_flows_sol.ipynb)
-- **TBC**
+- [**Module 10 - Generative Adversarial Networks**](https://dataflowr.github.io/website/modules/10-generative-adversarial-networks/)
+  - Conditional GAN and InfoGAN [10_GAN_double_moon.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module10/10_GAN_double_moon.ipynb)
+- [**Module 11 - Recurrent Neural Networks**](https://dataflowr.github.io/website/modules/11b-recurrent-neural-networks-practice/) and [**Batches with sequences in Pytorch**](https://dataflowr.github.io/website/modules/11c-batches-with-sequences/)
+  - notebook used in the theory course: [11_RNN.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module11/11_RNN.ipynb)
+  - predicting engine failure with RNN [11_predicitions_RNN_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module11/11_predicitions_RNN_empty.ipynb)
+- [**Module 12 - Attention and Transformers**](https://dataflowr.github.io/website/modules/12-attention/)
+  - Correcting the [PyTorch tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) on attention in seq2seq: [12_seq2seq_attention.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module12/12_seq2seq_attention.ipynb) and its [solution](https://github.com/dataflowr/notebooks/blob/master/Module12/12_seq2seq_attention_solution.ipynb)
+  - building a simple transformer block and thinking like transformers: [GPT_hist.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module12/GPT_hist.ipynb) and its [solution](https://github.com/dataflowr/notebooks/blob/master/Module12/GPT_hist_sol.ipynb)
+- [**Module 13 - Siamese Networks and Representation Learning**](https://dataflowr.github.io/website/modules/13-siamese/)
+  - learning embeddings with contrastive loss: [13_siamese_triplet_mnist_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module13/13_siamese_triplet_mnist_empty.ipynb) 
+- [**Module 15 - Dropout**](https://dataflowr.github.io/website/modules/15-dropout/)
+  - Dropout on a toy dataset: [15a_dropout_intro.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module15/15a_dropout_intro.ipynb)
+  - playing with dropout on MNIST: [15b_dropout_mnist.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module15/15b_dropout_mnist.ipynb)
+- [**Module 16 - Batchnorm**](https://dataflowr.github.io/website/modules/16-batchnorm/)
+  - impact of batchnorm: [16_batchnorm_simple.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module16/16_batchnorm_simple.ipynb)
+  - Playing with batchnorm without any training: [16_simple_batchnorm_eval.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module16/16_simple_batchnorm_eval.ipynb)
+- [**Module 18a - Denoising Diffusion Probabilistic Models**](https://dataflowr.github.io/website/modules/18a-diffusion/)
+  - Denoising Diffusion Probabilistic Models for MNIST: [ddpm_nano_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module18/ddpm_nano_empty.ipynb) and its solution [ddpm_nano_sol.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module18/ddpm_nano_sol.ipynb)
+  - Denoising Diffusion Probabilistic Models for CIFAR10: [ddpm_micro_sol.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module18/ddpm_micro_sol.ipynb)
+- [**Module - Deep Learning on graphs**](https://dataflowr.github.io/website/modules/graph0/)
+  - Inductive bias in GCN: a spectral perspective [GCN_inductivebias_spectral.ipynb](https://github.com/dataflowr/notebooks/blob/master/graphs/GCN_inductivebias_spectral.ipynb) and for colab [GCN_inductivebias_spectral-colab.ipynb](https://github.com/dataflowr/notebooks/blob/master/graphs/GCN_inductivebias_spectral-colab.ipynb)
+  - Graph ConvNets in PyTorch [spectral_gnn.ipynb](https://github.com/dataflowr/notebooks/blob/master/graphs/spectral_gnn.ipynb)
+-  **NERF**
+   -  PyTorch Tiny NERF [tiny_nerf_extended.ipynb](https://github.com/dataflowr/notebooks/blob/master/nerf/tiny_nerf_extended.ipynb)
+
 
 Archives are available on the archive-2020 branch.
 
