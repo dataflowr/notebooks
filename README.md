@@ -112,14 +112,9 @@ TDB
    -  PyTorch Tiny NERF [tiny_nerf_extended.ipynb](https://github.com/dataflowr/notebooks/blob/master/nerf/tiny_nerf_extended.ipynb)
 
 
-Archives are available on the archive-2020 branch.
-
 ## Usage
 
-If you want to run locally:
+If you want to run locally, follow the instructions of [Module 0 - Running the notebooks locally](https://dataflowr.github.io/website/modules/0-sotfware-installation/)
 
-    python3 -m venv dldiy  # If you want to install packages in a virtualenv
-    source dldiy/bin/activate
-
-    pip install -r requirements.txt  # Install PyTorch and others
-    python -m notebook  # Run notebook environment
+## 2020 version of the course
+Archives are available on the archive-2020 branch.
