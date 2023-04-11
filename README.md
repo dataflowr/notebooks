@@ -52,7 +52,9 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 </details>
 
 ## :sunflower:Session:four:
-TDB 
+TBC
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/marc_lelarge.svg?style=social&label=Follow%20%40marc_lelarge)](https://twitter.com/marc_lelarge) 
 # :sunflower: All notebooks
 
 - [**Module 1: Introduction & General Overview**](https://dataflowr.github.io/website/modules/1-intro-general-overview/) 
