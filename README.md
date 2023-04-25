@@ -30,7 +30,7 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 
 >- Pytorch tensors = Numpy on GPU + gradients!
 >- in deep learning, [broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html) is used everywhere. The rules are the same as for Numpy.
->- Automatic differentiation is not only the chain rule! Backpropagation algorithm (or dual numbers) is a clever algorithms to implement automatic differentiation...
+>- Automatic differentiation is not only the chain rule! Backpropagation algorithm (or dual numbers) is a clever algorithm to implement automatic differentiation...
 
  </details>
 
