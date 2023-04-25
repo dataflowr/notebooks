@@ -23,7 +23,6 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 
 >- [Module 2a - PyTorch tensors](https://dataflowr.github.io/website/modules/2a-pytorch-tensors/)
 >- [Module 2b - Automatic differentiation](https://dataflowr.github.io/website/modules/2b-automatic-differentiation/) + Practicals
->- [Module 3 - Loss function for classification](https://dataflowr.github.io/website/modules/3-loss-functions-for-classification/)
 >- MLP from scratch start of [HW1](https://dataflowr.github.io/website/homework/1-mlp-from-scratch/) 
 >- [another look at autodiff with Julia](https://github.com/dataflowr/notebooks/blob/master/Module2/AD_with_dual_numbers_Julia.ipynb)
 <details>
@@ -31,21 +30,22 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 
 >- Pytorch tensors = Numpy on GPU + gradients!
 >- Automatic differentiation is not only the chain rule! Backpropagation algorithm or dual numbers are clever algorithms to implement automatic differentiation...
->- Loss vs Accuracy. Know your loss for a classification task!
+>now your loss for a classification task!
 
  </details>
 
 ## :sunflower:Session:three: 
-> - Recap on Losses for classification and Optimization
-> - overfitting a MLP on CIFAR10: [Stacking_layers_MLP_CIFAR10.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module5/Stacking_layers_MLP_CIFAR10.ipynb)
+> - [Module 3 - Loss function for classification](https://dataflowr.github.io/website/modules/3-loss-functions-for-classification/) 
+> - [Module 4 - Optimization for deep learning](https://dataflowr.github.io/website/modules/4-optimization-for-deep-learning/)
+> - [Module 5 - Stacking layers](https://dataflowr.github.io/website/modules/5-stacking-layers/) and overfitting a MLP on CIFAR10: [Stacking_layers_MLP_CIFAR10.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module5/Stacking_layers_MLP_CIFAR10.ipynb)
 > - [**Module 6: Convolutional neural network**](https://dataflowr.github.io/website/modules/6-convolutional-neural-network/)
 > - how to regularize with dropout and uncertainty estimation with MC Dropout: [**Module 15 - Dropout**](https://dataflowr.github.io/website/modules/15-dropout/)
 <details>
   <summary>Things to remember</summary>
 
->- know your loss for a classification task!
->- know your optimizer (Module 4 done at home)
->- know how to build a neural net with torch.nn.module (Module 5 done at home)
+>- Loss vs Accuracy. Know your loss for a classification task!
+>- know your optimizer (Module 4)
+>- know how to build a neural net with torch.nn.module (Module 5)
 >- know how to use convolution and pooling layers (kernel, stride, padding)
 >- know how to use dropout 
 
