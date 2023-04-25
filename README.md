@@ -4,7 +4,7 @@
 
 Code and notebooks for the deep learning course [dataflowr](https://www.dataflowr.com/). Here is the schedule followed at école polytechnique in 2023:
 
-## :sunflower:Session:one: 
+## :sunflower:Session:one: Finetuning VGG
 
 >- [Module 1 - Introduction & General Overview](https://dataflowr.github.io/website/modules/1-intro-general-overview/)
 Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats) 
@@ -19,18 +19,18 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 
 </details>
 
-## :sunflower:Session:two: 
+## :sunflower:Session:two: PyTorch tensors and Autodiff
 
 >- [Module 2a - PyTorch tensors](https://dataflowr.github.io/website/modules/2a-pytorch-tensors/)
 >- [Module 2b - Automatic differentiation](https://dataflowr.github.io/website/modules/2b-automatic-differentiation/) + Practicals
 >- MLP from scratch start of [HW1](https://dataflowr.github.io/website/homework/1-mlp-from-scratch/) 
->- [another look at autodiff with Julia](https://github.com/dataflowr/notebooks/blob/master/Module2/AD_with_dual_numbers_Julia.ipynb)
+>- [another look at autodiff with dual numbers and Julia](https://github.com/dataflowr/notebooks/blob/master/Module2/AD_with_dual_numbers_Julia.ipynb)
 <details>
   <summary>Things to remember</summary>
 
 >- Pytorch tensors = Numpy on GPU + gradients!
->- Automatic differentiation is not only the chain rule! Backpropagation algorithm or dual numbers are clever algorithms to implement automatic differentiation...
->now your loss for a classification task!
+>- in deep learning, [broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html) is used everywhere. The rules are the same as for Numpy.
+>- Automatic differentiation is not only the chain rule! Backpropagation algorithm (or dual numbers) is a clever algorithms to implement automatic differentiation...
 
  </details>
 
