@@ -38,7 +38,7 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 > - [Module 3 - Loss function for classification](https://dataflowr.github.io/website/modules/3-loss-functions-for-classification/) 
 > - [Module 4 - Optimization for deep learning](https://dataflowr.github.io/website/modules/4-optimization-for-deep-learning/)
 > - [Module 5 - Stacking layers](https://dataflowr.github.io/website/modules/5-stacking-layers/) and overfitting a MLP on CIFAR10: [Stacking_layers_MLP_CIFAR10.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module5/Stacking_layers_MLP_CIFAR10.ipynb)
-> - [**Module 6: Convolutional neural network**](https://dataflowr.github.io/website/modules/6-convolutional-neural-network/)
+> - [Module 6: Convolutional neural network](https://dataflowr.github.io/website/modules/6-convolutional-neural-network/)
 > - how to regularize with dropout and uncertainty estimation with MC Dropout: [**Module 15 - Dropout**](https://dataflowr.github.io/website/modules/15-dropout/)
 <details>
   <summary>Things to remember</summary>
