@@ -71,6 +71,12 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 </details>
 
 ## :sunflower:Session:five:
+> - [Module 9a: Autoencoders](https://dataflowr.github.io/website/modules/9a-autoencoders/) and code your noisy autoencoder [09_AE_NoisyAE.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module9/09_AE_NoisyAE.ipynb)
+> - [Module 10: Generative Adversarial Networks]() and code your GAN, Conditional GAN and InfoGAN [10_GAN_double_moon.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module10/10_GAN_double_moon.ipynb)
+> - [Module 13: Siamese Networks and Representation Learning](https://dataflowr.github.io/website/modules/13-siamese/)
+
+
+## :sunflower:Session:six:
 TBC
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/marc_lelarge.svg?style=social&label=Follow%20%40marc_lelarge)](https://twitter.com/marc_lelarge) 
