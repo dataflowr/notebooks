@@ -75,8 +75,12 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 > - [Module 10: Generative Adversarial Networks]() and code your GAN, Conditional GAN and InfoGAN [10_GAN_double_moon.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module10/10_GAN_double_moon.ipynb)
 > - [Module 13: Siamese Networks and Representation Learning](https://dataflowr.github.io/website/modules/13-siamese/)
 
-
 ## :sunflower:Session:six:
+> - [Module 11a - Recurrent Neural Networks theory](https://dataflowr.github.io/website/modules/11a-recurrent-neural-networks-theory/)
+> - [Module 11b - Recurrent Neural Networks practice](https://dataflowr.github.io/website/modules/11b-recurrent-neural-networks-practice/) and predict engine failure with [11\_predicitions\_RNN\_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module11/11_predicitions_RNN_empty.ipynb)
+> - [Module 11c - Batches with sequences in Pytorch](https://dataflowr.github.io/website/modules/11c-batches-with-sequences/)
+
+## :sunflower:Session:seven:
 TBC
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/marc_lelarge.svg?style=social&label=Follow%20%40marc_lelarge)](https://twitter.com/marc_lelarge) 
