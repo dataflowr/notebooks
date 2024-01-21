@@ -79,7 +79,7 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 
 ## :sunflower:Session:six:
 > - [Module 11a - Recurrent Neural Networks theory](https://dataflowr.github.io/website/modules/11a-recurrent-neural-networks-theory/)
-> - [Module 11b - Recurrent Neural Networks practice](https://dataflowr.github.io/website/modules/11b-recurrent-neural-networks-practice/) and predict engine failure with [11\_predicitions\_RNN\_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module11/11_predicitions_RNN_empty.ipynb)
+> - [Module 11b - Recurrent Neural Networks practice](https://dataflowr.github.io/website/modules/11b-recurrent-neural-networks-practice/) and predict engine failure with [11\_predictions\_RNN\_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module11/11_predictions_RNN_empty.ipynb)
 > - [Module 11c - Batches with sequences in Pytorch](https://dataflowr.github.io/website/modules/11c-batches-with-sequences/)
 
 ## :sunflower:Session:seven:
@@ -136,7 +136,7 @@ For more updates: [![Twitter URL](https://img.shields.io/twitter/url/https/twitt
   - Conditional GAN and InfoGAN [10_GAN_double_moon.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module10/10_GAN_double_moon.ipynb)
 - [**Module 11 - Recurrent Neural Networks**](https://dataflowr.github.io/website/modules/11b-recurrent-neural-networks-practice/) and [**Batches with sequences in Pytorch**](https://dataflowr.github.io/website/modules/11c-batches-with-sequences/)
   - notebook used in the theory course: [11_RNN.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module11/11_RNN.ipynb)
-  - predicting engine failure with RNN [11_predicitions_RNN_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module11/11_predicitions_RNN_empty.ipynb)
+  - predicting engine failure with RNN [11_predictions_RNN_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module11/11_predictions_RNN_empty.ipynb)
 - [**Module 12 - Attention and Transformers**](https://dataflowr.github.io/website/modules/12-attention/)
   - Correcting the [PyTorch tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) on attention in seq2seq: [12_seq2seq_attention.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module12/12_seq2seq_attention.ipynb) and its [solution](https://github.com/dataflowr/notebooks/blob/master/Module12/12_seq2seq_attention_solution.ipynb)
   - building a simple transformer block and thinking like transformers: [GPT_hist.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module12/GPT_hist.ipynb) and its [solution](https://github.com/dataflowr/notebooks/blob/master/Module12/GPT_hist_sol.ipynb)
