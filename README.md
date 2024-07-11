@@ -57,7 +57,7 @@ Slides + notebook Dogs and Cats with VGG + Practicals (more dogs and cats)
 > - [Module 8b - Collaborative filtering](https://dataflowr.github.io/website/modules/8b-collaborative-filtering/) and build your own recommender system: [08_collaborative_filtering_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_collaborative_filtering_empty.ipynb) (on a larger dataset [08_collaborative_filtering_1M.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_collaborative_filtering_1M.ipynb))
 > - [Module 8c - Word2vec](https://dataflowr.github.io/website/modules/8c-word2vec/) and build your own word embedding [08_Word2vec_pytorch_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module8/08_Word2vec_pytorch_empty.ipynb)
 > - [Module 16 - Batchnorm](https://dataflowr.github.io/website/modules/16-batchnorm/) and check your understanding with [16_simple_batchnorm_eval.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module16/16_simple_batchnorm_eval.ipynb) and more [16_batchnorm_simple.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module16/16_batchnorm_simple.ipynb)
-> - [Module 17 - Resnets](https://dataflowr.github.io/website/modules/17-resnets/)
+> - [Module 17 - Resnets](https://dataflowr.github.io/website/modules/17-resnets/) and transform your classifier into an out-of-distribution detector with [ODIN_mobilenet_empty.ipynb](https://github.com/dataflowr/notebooks/blob/master/Module17/ODIN_mobilenet_empty.ipynb)
 > - start of [Homework 2: Class Activation Map and adversarial examples](https://dataflowr.github.io/website/homework/2-CAM-adversarial/)
 
 <details>
