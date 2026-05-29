@@ -1,8 +1,8 @@
-# [Dataflowr: Deep Learning DIY](https://www.dataflowr.com/)
+# [Dataflowr: Deep Learning DIY](https://dataflowr.github.io/website/)
 
 [![Dataflowr](https://raw.githubusercontent.com/dataflowr/website/master/_assets/dataflowr_logo.png)](https://dataflowr.github.io/website/)
 
-Code and notebooks for the deep learning course [dataflowr](https://www.dataflowr.com/). Here is the schedule followed at école polytechnique in 2023:
+Code and notebooks for the deep learning course [dataflowr](https://dataflowr.github.io/website/). Here is the schedule followed at école polytechnique in 2023:
 
 ## :sunflower:Session:one: Finetuning VGG
 
